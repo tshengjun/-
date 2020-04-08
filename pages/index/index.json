@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "Drawer": "../../components/Drawer/Drawer"
+  },
+  "navigationBarTitleText": "小程序侧边菜单"
+}

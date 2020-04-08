@@ -1,0 +1,11 @@
+/**index.wxss**/
+.menu-btn {
+  width: 60rpx;
+  height: 60rpx;
+}
+.active {
+  color: #ccc;
+}
+.kk{
+  color: #ff7561;
+}

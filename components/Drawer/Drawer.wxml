@@ -1,0 +1,7 @@
+<view class="memo {{menuOpen?'memo-open':''}} " bindtap="memoClose" catchtouchmove="preventTouchMove">
+  <view class="memo-main {{menuOpen?'memo-main-open':''}} ">
+    <view class="memo-list">
+      <navigator class="memo-item" open-type="navigate " url="" wx:for="{{drawerList}}" wx:key="*this">{{item}}</navigator>
+    </view>
+  </view>
+</view>

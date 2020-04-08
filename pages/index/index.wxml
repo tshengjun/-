@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<Drawer drawerList="{{drawerList}}" menuOpen="{{menuOpen}}" bindmemoCloseA="memoClose"></Drawer>
+<view class="container {{menuOpen?'module-open':''}} ">
+  <image bindtap="menuChange" class="menu-btn" mode="widthFix" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAACZklEQVRoQ+2Zv4sTQRTHvy97m+CpRRQRsbG00MLiGrE4C7Wxk21ShPxgtlTEf8NGwSa7A4FAmgXbIKegVlZqYaWVkEIRzhDu2LvEnSd7EDh1I8tU93Iz9Tz4ft5nZndml3DMBh0zXjjgVTfuDDvDK9YBt6RXTOg/OM6wM7xiHXBLeiFUKXUXwEMAZ4RJ3mbmZ3EcPy/KXWi41Wpd8n3/ExGdFAZ7EJeZd+fz+bV+v//l7/yFwGEY3gDwBkBFKDAz8504jrfKAq8z8wsiysHFDWZ+N5lMbiVJslMKOJ8UhuE6gNsAzksizrLs+3Q6fVkEm3O4p7QkmzZZnWGbrkmqcYYl2bLJ6gzbdE1SjTN82Faj0ahXq9WaJIOz2Wx/OBz+XJZ5mWFSSj0GoIjotCRgADvMHEVR9Ci/OJU6S3e73Sue570H4AuDXcT9xcwbURR9LAUchuFVADnwmkRgZs6MMRta6w+lgPNLhVLqCRG1AZySBJ1f/omo3+v17gMwZYEP5rXb7XO+75+QBJym6d5gMPhRtH/d9VCSSdus7uBh2zkpdc6wFFO2OZ1h285JqXOGF6byD/HGmE0AF4hodtQNGmMqRLRWqVS+pWn6ejAY7BZlLjQcBEG1Xq+/AiD2V8t4PN4cjUb7pc7SSqnrRPQWgHfUzS7JZ7Isu6m1zhn+GIWGm83mxVqt9pmI8v9L4gYz7xljLmutv5YCzid1Op17nuc9IKKzkoiZedsY81RrnZTew4cnBkEgalknSZL9T5B7LUlavjZZnWGbrkmqcYYl2bLJ6gzbdE1SjTMsyZZNVmfYpmuSan4DGnW3PXHpCbUAAAAASUVORK5CYII="></image>
+</view>
